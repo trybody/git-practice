@@ -1,3 +1,15 @@
 node_modules/
+# 系统垃圾
+.DS_Store
+Thumbs.db
+
+# 依赖目录
+node_modules/
+venv/
+
+# 日志和临时文件
 *.log
+*.tmp
+
+# 环境配置（可能含密码）
 .env
